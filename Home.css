@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.than_anh{
+    padding-top: 45%;
+    background: url('https://www.luxurylifestylemag.co.uk/wp-content/uploads/2023/01/bigstock-Happy-Woman-In-Dress-Running-I-428674271.jpg') top center / cover;
+}
+.than_anh p{
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+   padding-bottom: 55px;
+}
+.than_duoi_anh{
+    width: 1080px;
+    height: 434px;
+    margin: 0 210px;
+}
+.than_duoi_anh h2{
+    text-align: center;
+    color: #8C734B;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.doan_1{
+    text-align: center;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    color: #8C734B;
+}.than_duoi_anh p{
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    line-height: 28px;
+}
+.than_duoi_anh button{
+    height: 68px;
+    width: 368px;
+    background-color: #8C734B;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.than_duoi_anh button:hover{
+    background-color: #705C3C;
+}
+.than_3_doan{
+    display: flex;
+}
+
+.than_3_doan img{
+    height: 348px;
+    width: 348px;
+    margin-left: 45px;
+}
+.than_3_doan .vanban{
+    height: 154px;
+    width: 443px;
+}
+.trai{
+    height: 642px;
+    width: 493px;
+    margin: 10px 30px;
+}
+.vanban h2{
+    text-align: center;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+
+    color: #8C734B;
+    font-size: 30px;
+}
+.vanban p{
+    line-height: 35px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.rutgon{
+    padding-left: 10px;
+    width: 430px;
+    height: 107px;
+    background-color: white;
+    overflow: visible   ;
+
+}

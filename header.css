@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navtren{
+    text-align: right;
+    border-right: 2px solid gray;
+    margin-right: 20px;
+}
+.navtren p{
+    margin-right: 20px;
+    line-height: 55px;
+}
+.navduoi{
+    display: flex;
+}
+.navduoi img{
+    height: 80px;
+    width: 120px;
+    margin-left: 140px;
+    margin-right: 550px;
+}
+
+.nav > li{
+    display: inline-block;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+.nav > li:hover > a{
+    color: gray;
+    border-bottom: 2px solid green;
+
+}
+
+.nav li:hover .subnav{
+    display: block;
+}
+.subnav {
+    list-style-type: none;
+}
+.nav .subnav{
+   display: none;
+   position: absolute;
+   background-color: white;
+   text-decoration: none;
+}
+.nav .subnav li a:hover{
+    color: gray;
+}
+.nav .subnav a{
+    color: black;
+    height: auto;
+    width: max-content;
+    
+}

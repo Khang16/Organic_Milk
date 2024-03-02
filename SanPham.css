@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.khung_anh {
+    background: url('./image/15-y-tuong-chuan-bi-mon-an-sang-giam-can-duoi-300-calorie-11.jpg') left center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Đặt chiều cao là 100% của viewport height */
+}
+.khung_anh .vanban {
+    width: 705px;
+    height: 138px;
+    background-color: rgba(155, 126, 87, 0.8);
+    border-radius: 10px 10px;
+}
+.vanban p {
+    text-align: center;
+    font-size: 75px;
+    line-height: 138px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 50px;
+    
+}
+.than{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.noi_dung{
+    width: 463px;
+    height: 554px;
+    padding: 0 20px;
+}
+.noi_dung img{
+    height: 348px;
+    width: 348px;
+    margin-left: 30px;
+}
+.noi_dung p{
+    font-size: 16px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    line-height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.thananh {
+    width: 100%;
+    height: 959px;  
+    background-image: url(./anh/bigstock-Happy-Woman-In-Dress-Running-I-428674271.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.thananh .tieude {
+    width: 775px;
+    height: 138px;
+    background-color: rgb(119, 105, 82);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.thananh .tieude p {
+    line-height: 138px;
+    color: white;
+    font-size: 65px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.thanduoianh {
+    width: 1110px;
+    height: auto;
+    margin: 80px 185px 0px;
+}
+
+.thanduoianh>p {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    color: #8C734B;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 29px;
+    margin-top: 25px;
+    line-height: 34px;
+}
+
+.thanduoianh>.noidung1 {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    margin-left: 0px;
+    margin-bottom: 26px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.thanduoianh>.noidunganh>img {
+    width: 360px;
+    height: 360px;
+    margin-right: 5px;
+
+}
+
+

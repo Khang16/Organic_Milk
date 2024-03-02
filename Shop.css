@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop-page-title {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 79px;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px;
+}
+.right-title {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.text {
+    display: flex;
+    align-items: center;
+}
+.Container {
+    margin: 0px 120px 50px 120px;
+    padding-top: 31px;
+}
+.danh-muc-san-pham {
+    list-style: none;
+}
+.li-1 {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.danh-muc-san-pham .item-text .li-1:hover {
+    color: greenyellow; /* Thay #yourColor bằng mã màu bạn muốn */
+}
+.item-text {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 44px;
+    width: 288px;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.count {
+    color: silver;
+}
+.right1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.text-item {
+    text-decoration: none;
+}
+.box-text > p >a {
+    text-decoration: none;
+    color: #8C734B;
+}

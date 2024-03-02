@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.thananh {
+    width: 100%;
+    height: 988px;  
+    background-image: url('https://res.cloudinary.com/land-trust-alliance/image/fetch/f_webp,q_auto,g_auto:subject,w_1248,c_fill/https://a.storyblok.com/f/120093/5472x3648/ccbd51e285/ec4i3593.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thananh .tieude {
+    width: 775px;
+    height: 138px;
+    background-color: rgb(119, 105, 82);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.thananh .tieude p {
+    line-height: 138px;
+    color: white;
+    font-size: 65px;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.thanduoianh {
+    width: 1110px;
+    height: auto;
+    margin: 80px 185px 0px;
+}
+
+.thanduoianh>p {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    color: #8C734B;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 29px;
+    margin-top: 25px;
+    line-height: 34px;
+}
+
+.thanduoianh>.noidung1 {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-bottom: 26px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.thanduoianh img {
+    width: 756px;
+    height: 319px;
+    margin: 0px 162px 0px;
+}
+
+.than2 {
+    width: 1110px ;
+    height: auto;
+    margin: 0px 185px 0px;
+    display: flex;
+}
+
+.than2>.subnav {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.than2>.subnav>li {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 545px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.than2>.subnav>li a img {
+    max-width: 100%;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.than2>.subnav>li>a {
+    position: relative;
+    display: block;
+}
+
+.than2>.subnav>li:hover img  {
+    transform: scale(1.1);
+}
+
+.than2>.subnav>li>a>p {
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    margin-left: 27px;
+    margin-top: 32px;
+    line-height: 24px
+}
+
+.than3 {
+    width: 1110px;
+    height: auto;
+    
+}
+
+.than3>iframe {
+    margin: 10px 197px 0px;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

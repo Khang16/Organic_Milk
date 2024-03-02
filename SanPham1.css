@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.khung_anh {
+    background: url('./image/zoom543x543z100000cw543@2x.jpg.webp') center center / cover;
+    align-items: center;
+    height: 650px; /* Đặt chiều cao là 100% của viewport height */
+}
+.noidung{
+    background-color: #ECF6FF;
+}
+.noidung h2{
+    padding: 30px 0px;
+    color: #8C734B;
+    text-align: center;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    
+}
+.order{
+    display: flex;
+    justify-content: center;
+    background-color: #ECF6FF;
+}
+.order button{
+    width: 352px;
+    height: 68px;
+    background-color: #8C734B;
+    border: none;
+    color: white;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.order button:hover{
+    background-color: #705C3C;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    padding-top: 35px;
+    background-color: #ECF6FF;
+}
+.images img{
+    width: 475px;
+    height: 475px;
+    margin-right: 45px;
+}
+
+
+.body_noidung{
+    background-color: #ECF6FF;
+}
+.body_noidung h2{
+    padding: 15px 0;
+}
+.noidung1{
+    display: flex;
+    justify-content: center;
+}
+.noidung1 img{
+    height: 325px;
+    width: 324px;margin-right: 30px;
+}
+.ba_anh img{
+    width: 743px;
+    height: 105px;
+}
+.thongtin p{
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #8C734B;
+}
+.anh_thong_tin{
+    display: flex;
+    justify-content: center;
+}
+.anh_thong_tin img{
+    height: 509px;
+    width: 550px;
+    padding-right: 60px;
+}
+.thong_tin_cuoi{
+    margin-left: 185px;
+    display: flex;
+}
+.thong_tin_cuoi h2 {
+    color: #8C734B;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+
+}
+.thong_tin_cuoi p{
+    color: #8C734B;
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+.anh_tt img{
+    padding: 10px 0;
+    width: 163px;
+    height: 159px;
+}
+.product-info {
+    display: none;
+}
+
+.info:hover .product-info {
+    display: block;
+    cursor: pointer;
+}
+ul.nav li {
+    list-style-type: none; 
+}

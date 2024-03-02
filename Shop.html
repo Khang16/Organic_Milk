@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Shop.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <hr style="box-shadow: 0px 2px 0px 2px rgba(124, 114, 114, 0.5);">
+    <div class="shop-page-title">
+        <div>
+            <h1 class="title" style="font-size: 170%; color: #8C734B;">Shop</h1>
+            <div class="is-small">
+                <a href="http://milk3.maugiaodien.com" style="text-decoration: none; color: silver;">Trang chủ</a> <span class="divider">/</span> <strong>Shop</strong></nav>
+            </div>
+        </div>
+        <!--  -->
+        <div class="right-title">
+            <div class="text">
+                <p style="margin-right: 20px;">Hiển thị tất cả 8 kết quả</p>
+            </div>
+            <div>
+            <form class="woocommerce-ordering" method="get" >
+                <select name="" class="order" aria-label="Đơn hàng của cửa hàng">
+                        <option value="menu_order" selected="selected">Thứ tự mặc định</option>
+                        <option value="popularity">Thứ tự theo mức độ phổ biến</option>
+                        <option value="rating">Thứ tự theo điểm đánh giá</option>
+                        <option value="date">Mới nhất</option>
+                        <option value="price">Thứ tự theo giá: thấp đến cao</option>
+                        <option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
+                </select>
+                <input type="hidden" name="paged" value="1">
+            </form>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+    <!-- shop-page-title -->
+    <div class="Container">
+        <div class="row row1">
+            <div class="col-sm-3">
+                <div id="shop-sidebar" class="sidebar-inner col-inner">
+                    <span class="widget-title shop-sidebar" style="font-size: 120%; color: #8C734B; font-weight: 700;">Danh mục sản phẩm</span>
+                    <ul class="danh-muc-san-pham">
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-active-kids/" class="li-1">Organic Active Kids</a></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-full-cream-milk-powder/" class="li-1">Organic Full Cream Milk Powder</a></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-ingredients-25kg-bag/" class="li-1">Organic Ingredients (25kg Bag)</a></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-skim-milk-powder/" class="li-1">Organic Skim Milk Powder</a></div></li>
+                    </ul>
+                </div>
+                <div id="shop-sidebar" class="sidebar-inner col-inner">
+                    <span class="widget-title shop-sidebar" style="font-size: 120%; color: #8C734B; font-weight: 700;">Sản phẩm có sẵn</span>
+                    <ul class="danh-muc-san-pham">
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-active-kids/" class="li-1">800g Pouch</a><span class="count">(1)</span></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-full-cream-milk-powder/" class="li-1">830g Can</a><span class="count">(2)</span></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-ingredients-25kg-bag/" class="li-1">Box of 6 x 800g Pouches</a><span class="count">(1)</span></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-skim-milk-powder/" class="li-1">Box of 6 x 800g Cans</a><span class="count">(2)</span></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-skim-milk-powder/" class="li-1">Box of 7 x 36g Sachets</a><span class="count">(2)</span></div></li>
+                    </ul>
+                </div>
+                <div id="shop-sidebar" class="sidebar-inner col-inner">
+                    <span class="widget-title shop-sidebar" style="font-size: 120%; color: #8C734B; font-weight: 700;">Sản phẩm tương lai</span>
+                    <ul class="danh-muc-san-pham">
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-active-kids/" class="li-1">Certified Organic</a><span class="count">(8)</span></div></li>
+                        <li ><div class="item-text"><a href="http://milk3.maugiaodien.com/danh-muc-san-pham/organic-full-cream-milk-powder/" class="li-1">Organic A2β-Casein Protein</a><span class="count">(7)</span></div></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- row1-left -->
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/88-300x300.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/99-300x300.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Full Cream Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/10-300x300.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Full Cream Milk Powder with A2β-Casein – 800g Pouches (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                </div>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/2-1.png" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/2-2.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/2-3.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                </div>
+                <!--  -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/3-1.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                    <!--  -->
+                    <div class="col-sm-4">
+                        <div class="box-image">
+                            <a href="#" aria-label="15% off -- Organic Active Kids Formulated Milk Powder - 830g Cans (Box of 6)">
+                                <img width="300" height="300" src="../Image/3-2.jpg" sizes="(max-width: 300px) 100vw, 300px">
+                            </a>
+                        </div>
+
+                        <div class="box-text" style="height: 109.438px;">
+                                <p style="height: 61.9375px;">
+                                    <a href="#" >15% off — Organic Active Kids Formulated Milk Powder – 830g Cans (Box of 6)</a>
+                                </p>
+                            <div class="price-wrapper" style="height: 14.4px;">
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.560.000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
+                            <div>
+                        </div> 
+                        </div>
+                        </div> 
+                    </div> 
+                </div>
+                 <!--  -->
+                </div>
+                <!-- row -->
+                
+            </div>
+            <!-- col2 -->
+        </div>
+        <!-- row1 -->
+    </div> 
+    <!-- Container -->
+    <div id="footer"></div>
+</body>
+</html>

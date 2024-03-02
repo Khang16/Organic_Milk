@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box_1 {
+    background-image: url(../Image/h1008@stretch-9.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 666px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#text-box .text-box-content {
+    background-color: rgba(140, 115, 75, 0.85);
+    border-radius: 20px;
+    font-size: 100%;
+}
+#text-box .text-inner {
+    padding: 30px 30px 30px 30px;
+}
+#text-box {
+    width: 50%;
+}
+.text-inner>h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5cm;
+    font-family: Nunito, sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+
+.Container {
+    margin: 50px 130px 0px 130px;
+}
+
+footer {
+    margin: 50px 116px 50px 0px;   
+}
